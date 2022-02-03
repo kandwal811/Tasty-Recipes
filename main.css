@@ -430,6 +430,18 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+@media screen and (min-width: 226px) {
+  .tags-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 460px) {
+  .tags-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .tags-list a {
   text-transform: capitalize;
   display: block;
